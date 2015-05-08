@@ -406,10 +406,30 @@ there.
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+}
+
+
+
+
+
+/* hide top nav if it's smaller */
+@media (max-width:750px){
+  .top-nav-item{
+    display:none;
+  }
+}
+
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .top-nav-item{
+    display:inline block;
+  }
+}
+
+
+
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
