@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .landing-page{
-  background:#75CDB7;
+  background:#ffa65d;
   height: 100vh;
   position: relative;
   width: 100%;
@@ -12,10 +12,10 @@
   .middle-box{
     position:absolute;
     height:200px;
-    top:30%;
+    top:40%;
     left:0px;
     width:100%;
-    border:1px solid black;
+    //border:1px solid black;
     text-align:center;
     z-index:2;
   }
@@ -25,23 +25,18 @@
     z-index:3;
   }
 
-  @keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
-  }
 
+//ant stuff here
+//scss u have to use background-image: image-url()
+/*.pic-box{
 
-  .pic-box{
-  	width: 560px;
-  	height: 100px;
-    border:1px solid black;
-  	background-image: url(public/finalants2.png);
-  	background-position: 0px 0px;
-  	background-repeat: repeat-x;
-    z-index:500;
-
-	  animation: animatedBackground 40s linear infinite;
-  }
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  background-image: image-url('ants3.png'); // link to /assets/images/texture.png
+  background-position: 0px 0px;
+}
+*/
 
 
   .bottom-link-box{

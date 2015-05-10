@@ -37,10 +37,10 @@ header{
 
       .top-nav-item{
         float:right;
-        padding-left:28px;
+        padding-left:48px;
         padding-top:27px;
           a{
-            color:#A5FDE7;
+            color:#ffd7b6;
             text-decoration:none;
             -webkit-transition: color .3s ease-out;
             -moz-transition:    color .3s ease-out;
@@ -58,14 +58,14 @@ header{
         padding-left:28px;
         padding-top:27px;
           a{
-            color:#A5FDE7;
-            border:1px solid #A5FDE7;
+            color:#ffd7b6;
+            border:1px solid #ffd7b6;
             padding:12px;
             border-radius:5px;
             text-decoration:none;
           }
           a:hover{
-            border:2px solid white;
+            border:1px solid white;
             color:white;
           }
       }
